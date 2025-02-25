@@ -7,7 +7,7 @@
 .logo {
     grid-column: 1/2;
     grid-row: 1/2;
-    background-color: rgb(5, 160, 0);
+    background-color: rgb(8, 129, 4);
 }
 
 .navigation {
@@ -25,25 +25,25 @@
 .topimage {
     grid-column: 2/3;
     grid-row: 3/4;
-    background-color: chartreuse;
+    background-color: rgb(129, 172, 85);
 }
 
 .lowimage {
     grid-column: 2/3;
     grid-row: 4/5;
-    background-color: rgb(206, 255, 128);
+    background-color: rgb(86, 121, 31);
 }
 
 .topleft {
     grid-column: 1/2;
     grid-row: 3/4;
-    background-color: rgb(99, 255, 94);
+    background-color: rgb(26, 63, 25);
 }
 
 .lowleft {
     grid-column: 1/2;
     grid-row: 4/5;
-    background-color: rgb(30, 255, 0);
+    background-color: rgb(134, 185, 127);
 }
 
 .bottom {
@@ -71,7 +71,7 @@ li a {
       display: block;
       color: rgb(255, 255, 255);
       text-align: center;
-      padding: 14px 16px;
+      padding: 31px 30px;
       text-decoration: none;
 }
 
@@ -81,4 +81,14 @@ background-color: #212121;
 
 .active {
 background-color: #bbbbbb;
+}
+
+a:link {
+    font-size: 30px;
+}
+a:visited {
+
+}
+a:hover {
+
 }
